@@ -1,6 +1,6 @@
-## Algo-Bulls-Task using Django REST framework
+# Algo-Bulls-Task using Django REST framework
 
-# Main points for creating a REST API in Django.
+## Main points for creating a REST API in Django.
 
  find out steps to creating a REST API.
 
@@ -11,7 +11,7 @@
     Serialize the model data from step-3
     Create the URI endpoint to view the serialized data.
 
-# 1. Set-Up Virtual Environment
+## 1. Set-Up Virtual Environment
 
 sudo apt update
 
@@ -29,39 +29,39 @@ python3.6 -m venv aenv
 
 source aenv/bin/activate
 
-# 2. Set-Up Django
+## 2. Set-Up Django
 
 pip install django
 
 django-admin startproject ToDo
 
-# Check Django Server is working properly or not
+## Check Django Server is working properly or not
 
 python manage.py runserver
 
-# Creating the app
+## Creating the app
 
 python manage.py startapp api
 
-# Migrate the database
+## Migrate the database
 
 python manage.py makemigrations
 
 python manage.py migrate
 
-# Create Super User
+## Create Super User
 
 python manage.py createsuperuser
 
 python manage.py runserver
 
-# 3.Set-Up the Django Rest Framework
+## 3.Set-Up the Django Rest Framework
 
 pip install djangorestframework
 
 python manage.py runserver
 
-# Root Path for localhost
+## Root Path for localhost
 
 Read all existing data: http://127.0.0.1:8000/api/read-all/
 
