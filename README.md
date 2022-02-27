@@ -1,6 +1,4 @@
-# Algo-Bulls-Task
-
-## REST API's using Django REST framework
+## Algo-Bulls-Task using Django REST framework
 
 # Main points for creating a REST API in Django.
 
@@ -23,13 +21,13 @@ sudo apt install python3-pip
 
 sudo apt install python3-venv
 
-mkdir REST-API
+mkdir Algo-Bulls-Task
 
-cd REST-API
+cd Algo-Bulls-Task
 
-python3.6 -m venv tenv
+python3.6 -m venv aenv
 
-source tenv/bin/activate
+source aenv/bin/activate
 
 # 2. Set-Up Django
 
@@ -65,14 +63,12 @@ python manage.py runserver
 
 # Root Path for localhost
 
-API Overview: http://127.0.0.1:8000/
+Read all existing data: http://127.0.0.1:8000/api/read-all/
 
-Display all data: http://127.0.0.1:8000/task-list/
+Read one existing data by ID reference: http://127.0.0.1:8000/api/read-one/id/
 
-Display single data: http://127.0.0.1:8000/task-detail/id/
+Update an existing data by ID reference: http://127.0.0.1:8000/api/update/id/
 
-Update an existing data: http://127.0.0.1:8000/task-update/id/
+Create new data information: http://127.0.0.1:8000/api/create/
 
-Creating a new data: http://127.0.0.1:8000/task-create/
-
-Delete existing data by ID: http://127.0.0.1:8000/task-delete/id/
+Delete existing data by ID reference: http://127.0.0.1:8000/api/delete/id
