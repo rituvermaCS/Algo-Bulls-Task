@@ -53,6 +53,8 @@ python manage.py migrate
 
 python manage.py createsuperuser
 
+Provide super user credentials
+
 python manage.py runserver
 
 ## 3.Set-Up the Django Rest Framework
