@@ -72,3 +72,15 @@ Update an existing data by ID reference: http://127.0.0.1:8000/api/update/id/
 Create new data information: http://127.0.0.1:8000/api/create/
 
 Delete existing data by ID reference: http://127.0.0.1:8000/api/delete/id
+
+## Host the Django App over PythonAnyWhere
+
+Read all existing data: http://ritu01.pythonanywhere.com/api/read-all/
+
+Read one existing data by ID reference: http://ritu01.pythonanywhere.com/api/read-one/2/
+
+Update an existing data by ID reference: http://ritu01.pythonanywhere.com/api/update/2/
+
+Create new data information: http://ritu01.pythonanywhere.com/api/create/
+
+Delete existing data by ID reference: http://ritu01.pythonanywhere.com/api/delete/3/
