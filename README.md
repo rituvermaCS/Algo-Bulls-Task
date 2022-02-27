@@ -1,4 +1,4 @@
-# Algo-Bulls-Task using Django REST framework
+# Algo-Bulls-Task using Django REST Framework
 
 ## Main points for creating a REST API in Django.
 
